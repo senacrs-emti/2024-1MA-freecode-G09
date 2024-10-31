@@ -40,7 +40,7 @@ body{
      height: 450px;
      background-color: #1a1a1a;
      border-radius: 0;
-     transition: all .2s;;
+     transition: all .2s;
 }
 
 .box1:hover {
@@ -53,9 +53,9 @@ body{
 }
 
 .natureza{
-     width: 380px;
+     width: 375px;
      height: 450px;     
-     margin-left: 370px;
+     margin-left: 375px;
 }
 
 .natureza:hover {
@@ -65,19 +65,42 @@ body{
 
 .teste{
      color: white;
-     margin-left: 165px;
-     margin-top: -245px;
-     font-size: 25px;
+     margin-left: 25px;
+     margin-top: -390px;
+     font-size: 45px;
+     font-family: Arial, Helvetica, sans-serif;
 }
 
-.teste1 {
-     transition: all .5s;
-}
-
-.teste2:hover{
-     transform: translateX(-8px);
-}
-
-.teste1:hover {
-     transform: scale(2.98);
-}
+.button {
+     background-color: #ffffff00;
+     color: #fff;
+     width: 8.5em;
+     height: 2.9em;
+     border: #044b1a 0.2em solid;
+     border-radius: 11px;
+     text-align: right;
+     transition: all 0.6s ease;
+     margin-left: 130px;
+     margin-top: 200px;
+   }
+   
+   .button:hover {
+     background-color: #044b1a;
+     cursor: pointer;
+   }
+   
+   .button svg {
+     width: 1.6em;
+     margin: -0.2em 0.8em 1em;
+     position: absolute;
+     display: flex;
+     transition: all 0.6s ease;
+   }
+   
+   .button:hover svg {
+     transform: translateX(5px);
+   }
+   
+   .text {
+     margin: 0 1.5em
+   }
