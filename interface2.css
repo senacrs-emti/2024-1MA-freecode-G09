@@ -9,8 +9,10 @@ header{
     background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20230519/pngtree-picture-of-green-leaves-in-a-dark-room-image_2665488.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    -webkit-backdrop-filter: blur(405px);
-    backdrop-filter: blur(405px);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    filter: blur(4px);
+    margin-left: -2px;
 }
 
 main{
@@ -21,3 +23,67 @@ main{
   position: absolute;
   z-index: 1;
 }
+
+#box{
+  width:300px;
+  height: 380px;
+  background-color: #044b1a;
+  border-radius: 10px 20px 30px 40px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  margin-left: 80px;
+  margin-top: 0px;
+  position: absolute;
+  z-index: 2;
+  box-shadow: 8px 4px 1px #01180c;
+  float: left;
+  }
+
+  #box:hover{
+    transform: scale(0.90);
+    transition: 0.5s;
+  }
+
+  #box1{
+    width:300px;
+    height: 380px;
+    background-color: #044b1a;
+    border-radius: 10px 20px 30px 40px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-left: 475px;
+    margin-top: 0px;
+    position: absolute;
+    z-index: 2;
+    box-shadow: 8px 4px 1px #01180c;
+    }
+  
+    #box1:hover{
+      transform: scale(0.90);
+      transition: 0.5s;
+    }
+
+    #box2{
+      width:300px;
+      height: 380px;
+      background-color: #044b1a;
+      border-radius: 10px 20px 30px 40px;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      border-bottom-right-radius: 15px;
+      border-bottom-left-radius: 15px;
+      margin-left: 870px;
+      margin-top: 0px;
+      position: absolute;
+      z-index: 2;
+      box-shadow: 8px 4px 1px #01180c;
+      }
+    
+      #box2:hover{
+        transform: scale(0.90);
+        transition: 0.5s;
+      }
