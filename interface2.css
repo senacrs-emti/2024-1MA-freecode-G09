@@ -27,7 +27,7 @@ main{
 #box{
   width:500px;
   height: 400px;
-  background-color: #044b1a;
+  background-color: #1a1a1a;
   border-radius: 10px 20px 30px 40px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
@@ -39,6 +39,28 @@ main{
   z-index: 2;
   box-shadow: 8px 4px 1px #01180c;
   float: left;
+  transition: all 0.5s ease-in-out;
+  }
+
+  .B1{
+    width: 160px;
+    height: 50px;
+    margin-left: 45px;
+    margin-top: 140px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px;
+    transition: all 0.5s ease-in-out;
+    color: #01180c;
+    background-color:#3adc09;
+    font-family:cursive;
+    font-size: 20px;
+    font-weight: 800;
+    display: block;
+  }
+
+  .B1:hover{
+    transform: scale(0.90);
+    transition: 0.5s;
   }
 
   #box:hover{
@@ -55,15 +77,16 @@ main{
   }
 
   .STATUS{
-    color: black;
+    color:#3adc09;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 275px;
     font-weight: 800;
     margin-top: -185px;
+
   }
 
   .SALSA{
-    color: black;
+    color: #3adc09;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
     margin-top: 120px;
@@ -76,15 +99,15 @@ main{
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 300px;
     font-weight: 800;
-    margin-top: -10px;
+    margin-top: 1px;
   }
 
   .UMIDADE{
     color: #3adc09;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 250px;
+    margin-left: 255px;
     font-weight: 800;
-    font-size: 25px;
+    font-size: 20px;
     margin-top: -140px;
   }
 
@@ -102,6 +125,7 @@ main{
     position: absolute;
     z-index: 2;
     box-shadow: 8px 4px 1px #01180c;
+    transition: all 0.5s ease-in-out;
     }
   
     #box1:hover{
@@ -123,10 +147,12 @@ main{
       position: absolute;
       z-index: 2;
       box-shadow: 8px 4px 1px #01180c;
+      transition: all 0.5s ease-in-out;
       }
     
       #box2:hover{
         transform: scale(0.90);
         transition: 0.5s;
       }
+
 
