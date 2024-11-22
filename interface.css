@@ -104,3 +104,8 @@ body{
    .text {
      margin: 0 1.5em
    }
+
+   .BOTAO1{
+     text-decoration: none;
+     color: white;
+   }
