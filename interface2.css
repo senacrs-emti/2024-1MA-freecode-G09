@@ -5,13 +5,10 @@
 
 header{
     width: 100%;
-    height: 190px;
-    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20230519/pngtree-picture-of-green-leaves-in-a-dark-room-image_2665488.jpg);
+    height: 300px;
+    background-color: black;
     background-repeat: no-repeat;
     background-size: 100%;
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    filter: blur(4px);
     margin-left: -2px;
 }
 
@@ -33,8 +30,8 @@ main{
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
-  margin-left: 100px;
-  margin-top: 70px;
+  margin-left: 95px;
+  margin-top: 355px;
   position: absolute;
   z-index: 2;
   box-shadow: 8px 4px 1px #01180c;
@@ -129,8 +126,8 @@ main{
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
-    margin-left: 100px;
-    margin-top: 535px;
+    margin-left: 95px;
+    margin-top: 800px;
     position: absolute;
     z-index: 2;
     box-shadow: 8px 4px 1px #01180c;
@@ -151,8 +148,8 @@ main{
       border-top-right-radius: 15px;
       border-bottom-right-radius: 15px;
       border-bottom-left-radius: 15px;
-      margin-left: 675px;
-      margin-top: 70px;
+      margin-left: 655px;
+      margin-top: 358px;
       position: absolute;
       z-index: 2;
       box-shadow: 8px 4px 1px #01180c;
@@ -173,8 +170,8 @@ main{
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
         border-bottom-left-radius: 15px;
-        margin-left: 675px;
-        margin-top: 535px;
+        margin-left: 655px;
+        margin-top: 800px;
         position: absolute;
         z-index: 2;
         box-shadow: 8px 4px 1px #01180c;
@@ -187,7 +184,7 @@ main{
         }
 
         .CAIXAP{
-          width:1100px;
+          width:1150px;
           height: 1000px;
           background-image: url(https://i.pinimg.com/736x/09/76/7e/09767e0a895677ef2cffe4a2a7306ea4.jpg);
           background-repeat: no-repeat;
@@ -197,12 +194,234 @@ main{
           border-top-right-radius: 15px;
           border-bottom-right-radius: 15px;
           border-bottom-left-radius: 15px;
-          margin-left: 75px;
+          margin-left: 50px;
           margin-top: 300px;
           position: absolute;
-          z-index: 2;
+          z-index: 0;
           box-shadow: 8px 4px 1px #1a1a1a;
+          filter: blur(2px);
           }
+
+          #box0{
+            width:1150px;
+            height: 400px;
+            background-color: #01180c;
+            border-radius: 10px 20px 30px 40px;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+            border-bottom-left-radius: 15px;
+            margin-left: 50px;
+            margin-top: 100px;
+            position: absolute;
+            z-index: 2;
+            box-shadow: 8px 4px 1px #01180c;
+          }
+
+          .plant1{
+            width: 200px;
+            height: 120px;
+            margin-top: 310px;
+            margin-left: -40px;
+            position: absolute;
+            z-index: 1;
+          }
+
+          .plant2{
+            width: 200px;
+            height: 120px;
+            margin-top: 310px;
+            margin-left: 90px;
+            position: absolute;
+            z-index: 1;
+          }
+
+          .plant3{
+            width: 200px;
+            height: 120px;
+            margin-top: 310px;
+            margin-left: 200px;
+            position: absolute;
+            z-index: 1;
+          }
+
+          .plant4{
+            width: 200px;
+            height: 120px;
+            margin-top: 310px;
+            margin-left: 210px;
+            position: absolute;
+            z-index: 1;
+          }
+
+          .plant5{
+            width: 200px;
+            height: 120px;
+            margin-top: 310px;
+            margin-left: 350px;
+            position: absolute;
+            z-index: 1;
+          }
+
+          .plant6{
+            width: 200px;
+            height: 120px;
+            margin-top: 310px;
+            margin-left: 480px;
+            position: absolute;
+            z-index: 1;
+          }
+
+          .plant7{
+            width: 200px;
+            height: 120px;
+            margin-top: 310px;
+            margin-left: 600px;
+            position: absolute;
+            z-index: 1;
+          }
+
+          .plant8{
+            width: 200px;
+            height: 120px;
+            margin-top: 310px;
+            margin-left: 750px;
+            position: absolute;
+            z-index: 1;
+          }
+
+          .plant9{
+            width: 200px;
+            height: 120px;
+            margin-top: 310px;
+            margin-left: 900px;
+            position: absolute;
+            z-index: 1;
+          }
+
+          .plant10{
+            width: 200px;
+            height: 120px;
+            margin-top: 310px;
+            margin-left: 1000px;
+            position: absolute;
+            z-index: 1;
+          }
+
+          .plant11{
+            width: 200px;
+            height: 120px;
+            margin-top: -40px;
+            margin-left: -40px;
+            position: absolute;
+            z-index: 1;
+            transform: rotate(180deg);
+          }
+
+          .plant12{
+            width: 200px;
+            height: 120px;
+            margin-top: -40px;
+            margin-left: 90px;
+            position: absolute;
+            z-index: 1;
+            transform: rotate(180deg);
+          }
+
+          .plant13{
+            width: 200px;
+            height: 120px;
+            margin-top: -40px;
+            margin-left: 200px;
+            position: absolute;
+            z-index: 1;
+            transform: rotate(180deg);
+          }
+
+          .plant14{
+            width: 200px;
+            height: 120px;
+            margin-top: -40px;
+            margin-left: 210px;
+            position: absolute;
+            z-index: 1;
+            transform: rotate(180deg);
+          }
+
+          .plant15{
+            width: 200px;
+            height: 120px;
+            margin-top: -40px;
+            margin-left: 350px;
+            position: absolute;
+            z-index: 1;
+            transform: rotate(180deg);
+          }
+
+          .plant16{
+            width: 200px;
+            height: 120px;
+            margin-top: -40px;
+            margin-left: 480px;
+            position: absolute;
+            z-index: 1;
+            transform: rotate(180deg);
+          }
+
+          .plant17{
+            width: 200px;
+            height: 120px;
+            margin-top: -40px;
+            margin-left: 600px;
+            position: absolute;
+            z-index: 1;
+            transform: rotate(180deg);
+          }
+
+          .plant18{
+            width: 200px;
+            height: 120px;
+            margin-top: -40px;
+            margin-left: 750px;
+            position: absolute;
+            z-index: 1;
+            transform: rotate(180deg);
+          }
+
+          .plant19{
+            width: 200px;
+            height: 120px;
+            margin-top: -40px;
+            margin-left: 900px;
+            position: absolute;
+            z-index: 1;
+            transform: rotate(180deg);
+          }
+
+          .plant20{
+            width: 200px;
+            height: 120px;
+            margin-top: -40px;
+            margin-left: 1000px;
+            position: absolute;
+            z-index: 1;
+            transform: rotate(180deg);
+          }
+
+          .bordaV{
+            width:1000px;
+            height: 280px;
+            border: #036715 8px solid;
+            border-radius: 20px 20px 30px 20px;
+            margin-left: 70px;
+            margin-top: 55px;
+            position: absolute;
+            z-index: 0;
+            box-shadow: inset 0 0 50px 0 #036715, 0 0 50px 0 #036715;
+          }
+
+
+
 
 
 
