@@ -1,0 +1,54 @@
+const int limiarSeco1 = 50; 
+const int limiarSeco2 = 37;
+const int limiarSeco3 = 75; 
+const int limiarSeco4 = 68; 
+const int releValvula = 10;
+const int pinoSensor = A0;
+int tempoRega = 5;
+int umidadeSolo = 0;
+
+
+
+void setup(){
+ // garante que o relé vai iniciar desligado 
+ digitalWrite(releValvula, HIGH);
+ // define o relé como dispositivo de saída 
+ pinMode(releValvula, OUTPUT);
+ Serial.begin(9600);
+ Serial.println("REGA DE PH AMADO");
+}
+
+int medirUmidade (){
+ int leituraSensor = analogRead(pinoSensor); 
+ int conversaoSensor = map(leituraSensor, 0 , 1023, 0 , 100);
+ Serial.print("Porcentagem:");
+ Serial.print(conversaoSensor);
+ Serial.println(" %");
+ 
+
+ return(conversaoSensor);
+ 
+}
+
+void loop(){
+  for(int i= 0; i < 5; i++){
+ medirUmidade();
+  
+  umidadeSolo = medirUmidade();
+  if (umidadeSolo <limiarSeco3){
+     digitalWrite(releValvula, LOW);
+     Serial.println("Solo seco, Regando..");
+     delay(tempoRega * 1000);
+     digitalWrite(releValvula, HIGH);
+     Serial.println("Pronto ! Volte em 1hora :) " );
+ } 
+
+  else{
+ Serial.println("Solo suficientemente úmido");
+ }
+ delay(1000);
+}
+
+ 
+}
+
