@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    width: 100%;
+    height: 595px;
+    background-image: url(https://i.pinimg.com/564x/28/f3/ae/28f3aeca5842bad24d7b14df004a0f64.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: -3s0px -50px 20px -10px black;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+.box {
+     width: 750px;
+     height: 450px;
+     background-image: linear-gradient(163deg, #01180c 0%, #044b1a 100%);
+     border-radius: 20px;
+     transition: all .3s;
+     box-shadow: 10px 10px -10px black;
+     margin-left: 250px;
+     margin-top: 70px;
+     float: left;
+}
+
+@media screen and (max-width: 750px){ 
+     .box{
+          width: 750px;
+          flex-direction: row;
+     }
+}   
+
+
+.box1 {
+     width: 750px;
+     height: 450px;
+     background-color: #1a1a1a;
+     border-radius: 0;
+     transition: all .2s;
+}
+
+.box1:hover {
+     transform: scale(0.98);
+     border-radius: 20px;
+}
+
+.box:hover {
+     box-shadow: 10px 10px 10px 1px rgb(0, 0, 0);
+}
+
+.natureza{
+     width: 375px;
+     height: 450px;     
+     margin-left: 375px;
+}
+
+.natureza:hover {
+     transform: scale(0.98);
+     border-radius: 20px;
+}
+
+.teste{
+     color: white;
+     margin-left: 25px;
+     margin-top: -390px;
+     font-size: 45px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+     background-color: #ffffff00;
+     color: #fff;
+     width: 8.5em;
+     height: 2.9em;
+     border: #044b1a 0.2em solid;
+     border-radius: 11px;
+     text-align: right;
+     transition: all 0.6s ease;
+     margin-left: 130px;
+     margin-top: 200px;
+   }
+   
+   .button:hover {
+     background-color: #044b1a;
+     cursor: pointer;
+   }
+   
+   .button svg {
+     width: 1.6em;
+     margin: -0.2em 0.8em 1em;
+     position: absolute;
+     display: flex;
+     transition: all 0.6s ease;
+   }
+   
+   .button:hover svg {
+     transform: translateX(5px);
+   }
+   
+   .text {
+     margin: 0 1.5em
+   }
+
+   .BOTAO1{
+     text-decoration: none;
+     color: white;
+   }
